@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+   
+}
+
+
+
+section.container{
+    width: 100%;
+ 
+}
+
+
+
+nav.pages{
+    padding-right: 15%;
+    float: right;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+nav.pages a{
+    color: #272727;
+    text-decoration: none;
+    margin-left: 1rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.hero{
+    
+    margin-top: 4rem;
+    clear: both;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.half{
+   
+    float: left;
+    width: 50%;
+   
+}
+
+
+.half img{
+    width: 100%;
+}
+
+.half h1{
+    font-size: 2.5rem;
+    margin-top: 6rem;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+}
+
+.half span.highlight{
+ color: #f76660;
+ font-weight: 800;
+ text-transform: uppercase;
+
+}
+
+.half p{
+    text-align: justify;
+    padding-right: 5rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.3rem;
+}
+
+
+.btn{
+    background-image: linear-gradient(50deg,  #f76660, #fc6a3e  );
+    border:none;
+    border-radius: 7px;
+    padding: .5rem 1rem;
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-weight: 600;
+   
+}
+section.about .hero{
+    padding-top: 50px;
+}
+
+
+
+section.about h2{
+    padding-top: 200px;
+    padding-bottom: 1rem;
+   
+    
+}
+
+
+
+section.work{
+    
+    height: 600px;
+    background-color: rgb(230, 230, 230);
+    clear: both;
+    padding-top: 100px;
+    padding-left: 25%;
+    padding-right: 15%;
+    
+    align-items: center;
+    justify-items: center;
+    padding-bottom: 100px;
+    
+}
+
+section.work h1{
+
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    padding-left: 270px;
+    font-size: 2.5rem;
+
+    
+
+}
+
+section.work span{
+    color:#f76660 ;
+}
+
+
+
+.work .box{
+   width: 25%;
+   height: 350px;
+    margin-right:3.3%;
+    float: left;
+    background-color: rgb(236, 236, 236);
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    box-shadow: 6px 6px 50px gray;
+    
+    
+}
+.work .box img{
+    width: 250px;
+    padding-bottom: 5px;
+    margin-left: 2px;
+}
+
+.work .box p h2{
+    text-align: justify;
+    
+}
+
+.work .box h2{
+    margin-bottom: 10px;
+}
+
+.purple{
+    height: auto;
+   
+}
+
+.chat{
+
+    margin: 7% 20%;
+    background-image: url(./Images/wpork-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 25px;
+    padding: 4%;
+    box-shadow: 6px 6px 50px rgb(128, 128, 128);
+    
+   
+}
+
+.purple .chat h1{
+    color: azure;
+    display: inline-block;
+    font-size: 3rem;
+    text-transform: uppercase;
+    margin-right: 450px;
+}
+
+.purple .chat .chat-btn{
+    float: right;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    
+    font-weight: 600;
+}
+
+.purple .chat span{
+    color: #f76660 ;
+}
+
+.footer{
+    height: auto;
+    
+    
+}
+
+.foot{
+   
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 1rem;
+    
+}
+
+.foot h3, h4, a{
+    margin-bottom: 6px;
+}
+
+.foot a{
+    margin-right: 4px;
+}
+.skills{
+   
+    display: flex;
+    margin: 3% 30%;
+    
+}
+.skill-box{
+    background-color: #eeeeee;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    padding: 3%;
+    margin-right: 3%;
+    border-radius: 10%;
+    box-shadow: 1px 1px 10px rgb(189, 189, 189);
+    
+}
+.skill-box img{
+    width: 20%;
+    margin-bottom: 5%;
+    
+}
+
+.skill-box h2{
+    color: #f76660;
+    margin-bottom: 3%;
+}
+
+.skill-box p{
+    font-size: medium;
+    font-weight: 500;
+    text-align: justify;
+    line-height: 1.4;
+}
+
+.my-skill{
+   margin: 5% 45% 2% 45%;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    color: #f76660;
+
+}
+
+
+
+
